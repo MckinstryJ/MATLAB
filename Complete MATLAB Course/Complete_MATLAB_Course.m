@@ -91,12 +91,10 @@ inv(A)*b';  % values where x, y, z point to interception of 3 planes
 A \ b';
 
 % determinte of matrix
-det(A);
+det(A)
 
 % eigenvalues - linear transformations that gives us all in A
 [V, D] = eig(A);
 % solving for (A - lambda I)v = 0
 % det(A - lam I) = 0
 % (a-lam)(d-lam) = 0 => ad -alam -dlam + lam^2
-
-
